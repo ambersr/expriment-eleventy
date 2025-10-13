@@ -1,4 +1,4 @@
 ---
-title: My second blog jeeej
+title: My second blog yeey nog een test
 layout: post.njk
 ---

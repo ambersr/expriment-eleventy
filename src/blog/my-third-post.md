@@ -1,5 +1,5 @@
 ---
-title: My second blog yeey nog een test
+title: My third blog yeey nog een test
 excerpt: Dit wordt de excerpt van een document deze is ongeveer 2 a 3 regels lang en wordt afgekapt op 2 regels
 layout: post.njk
 ---

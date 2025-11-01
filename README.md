@@ -1,34 +1,37 @@
-# Expriment Eleventy
-Een experiment met het CMS Eleventy om statische websites te bouwen en automatisch te deployen via GitHub Pages.
+# Experiment Eleventy
 
-## Inhoudsopgave
-- [Over dit project](#over-dit-project)
-- [Projectstructuur](#projectstructuur)
-- [Installatie en gebruik](#installatie-en-gebruik)
+Dit project is een experiment met Eleventy en haalt content op via Github pages.  
+Het doel is om een statische website te ontwikkelen en te onderzoeken hoe de User Experience, Developer Experience en Content Management Experience is van deze techstack.
 
-## Over dit project
-Dit project is opgezet om te experimenteren met Eleventy. Het doel is om Markdown-content eenvoudig te kunnen beheren en automatisch te laten publiceren als een website.
+## User Experience (UX)
 
-- Markdown-bestanden in `src/` worden door Eleventy omgezet naar HTML in de `public/` map.
-- Eleventy ondersteunt verschillende template engines zoals Nunjucks en Liquid.
-- Continuous Deployment wordt geregeld via GitHub Actions: elke push naar de `main` branch bouwt de site en zet deze live op GitHub Pages.
+- UX van deze stack is over het algemeen goed voor zowel desktop- als mobiele apparaten.  
+- Toegankelijkheid is grotendeels op orde bij statische content; interactieve componenten vereisen extra aandacht (toetsenbordnavigatie, focus states, ARIA).  
+- Pagina’s laden snel dankzij statische generatie en caching van assets.  
+- Kleine verbeteringen mogelijk voor oudere apparaten of trage netwerken (CSS-fallbacks, minimale JS).  
+- Geschikt voor content-gedreven websites met overzichtelijke structuur en snelle prestaties.  
 
-## Installatie en gebruik
+[Uitgewerkt in Gist ](https://gist.github.com/ambersr/8a297c701fb0aa6a7c6f5ab4564c0c8e)
 
-1. Clone de repository:
-```
-```bash
-git clone https://github.com/ambersr/Expriment-Eleventy.git
-```
+## Developer Experience (DX)
 
-2. Installeer independencies
+- Templates en includes zijn flexibel en herbruikbaar.  
+- Statistische builds zijn betrouwbaar en eenvoudig te debuggen.  
+- Minimale configuratie vereist, waardoor je snel kunt werken.  
+- Voor interactieve componenten of moderne JS/CSS-features moet extra tooling worden toegevoegd (PostCSS, Vite, Webpack).  
 
-```
-npm install
-```
+[Uitgewerkt in Gist](https://gist.github.com/ambersr/1a159c588132643c27122d8d8773e3df)
 
-3. Start de local server
+## Content Management Experience (CMX)
 
-```
-npm start
-```
+- Content kan beheerd worden via Markdown, JSON/YAML of een headless CMS (Directus, Netlify CMS, etc.).  
+- Beheerders kunnen content toevoegen of aanpassen zonder technische kennis van Eleventy of templating.  
+- Voor standaard contentbeheer is het intuïtief en overzichtelijk.  
+- Complexere workflows of realtime collaboration vereisen vaak een externe CMS-integratie.  
+- De techstack stelt contentbeheerders in staat zelfstandig te werken, onafhankelijk van developers.  
+
+[Uitgewerkt in Gist  ](https://gist.github.com/ambersr/67c7f3d116754619460ef167f9416e68)
+
+## Algemene conclusie
+
+Eleventy is ideaal voor content gedreven websites die snel, overzichtelijk en onderhoudsvriendelijk moeten zijn. Developers hebben een flexibele workflow terwijl contentbeheerders eenvoudig zelfstandig content kunnen beheren via Markdown of een headless CMS. Voor projecten met veel interactieve of realtime functies is Eleventy minder geschikt, omdat die functionaliteit handmatig toegevoegd moet worden.

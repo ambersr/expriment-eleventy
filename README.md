@@ -32,6 +32,6 @@ Het doel is om een statische website te ontwikkelen en te onderzoeken hoe de Use
 
 [Uitgewerkt in Gist  ](https://gist.github.com/ambersr/67c7f3d116754619460ef167f9416e68)
 
-## Algemene conclusie
+## Conclusie gebruik techstack
 
 Eleventy is ideaal voor content gedreven websites die snel, overzichtelijk en onderhoudsvriendelijk moeten zijn. Developers hebben een flexibele workflow terwijl contentbeheerders eenvoudig zelfstandig content kunnen beheren via Markdown of een headless CMS. Voor projecten met veel interactieve of realtime functies is Eleventy minder geschikt, omdat die functionaliteit handmatig toegevoegd moet worden.

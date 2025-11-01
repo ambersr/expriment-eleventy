@@ -4,6 +4,6 @@ layout: base.njk
 templateEngineOverride: njk,md
 ---
 
-## Blog Posts
+# Overzicht posts uit Github
 
 {% include "postlist.njk" %}
